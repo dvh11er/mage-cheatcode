@@ -3,8 +3,8 @@
     <modules>
         <!-- This and file app/etc/modules/Basics_ModuleA.xml are all you need -->
         <!-- to register a module in Magento -->
-        <basics_moduleA>
+        <Basics_ModuleA>
             <version>0.1.0</version>
-        </basics_moduleA>
+        </Basics_ModuleA>
     </modules>
 </config>
