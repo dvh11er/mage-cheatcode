@@ -6,6 +6,7 @@ magento/nbproject/
 magento/pear
 magento/pear/
 magento/var/
+magento/test/
 
 # PhpStorm
 .idea/
