@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Basics_Models>
+            <version>0.1.0</version>
+        </Basics_Models>
+    </modules>
+    <global>
+        <!-- Register models -->
+        <models>
+            <!-- This node can be named anything as long as it is unique. -->
+            <!-- The convention is to use namespace_moduleName. -->
+            <basics_models>
+                <!-- This tells Magento where to find model classes in this module. -->
+                <!-- In this case under: Basics/Models/Model. -->
+                <class>Basics_Models_Model</class>
+            </basics_models>
+        </models>
+    </global>
+</config>
