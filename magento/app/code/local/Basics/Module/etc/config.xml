@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <!-- This and file app/etc/modules/Basics_Module.xml are all you need -->
+        <!-- to register a module in Magento. -->
+        <Basics_Module>
+            <version>0.1.0</version>
+        </Basics_Module>
+    </modules>
+</config>
