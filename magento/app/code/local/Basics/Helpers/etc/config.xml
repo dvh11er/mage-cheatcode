@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Basics_Helpers>
+            <version>0.1.0</version>
+        </Basics_Helpers>
+    </modules>
+    <global>
+        <!-- Register your helpers -->
+        <helpers>
+            <!-- This node can be named anything as long as it is unique. -->
+            <!-- The convention is namespace_moduleName. -->
+            <basics_helpers>
+                <!-- This tells Magento where to find helper classes in your module. -->
+                <!-- In this case under: Basics/Helpers/Helper. -->
+                <class>Basics_Helpers_Helper</class>
+            </basics_helpers>
+        </helpers>
+    </global>
+</config>
