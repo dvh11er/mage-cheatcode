@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
 <config>
     <modules>
-        <Basics_HelperA>
+        <Basics_Helper>
             <active>true</active>
             <codePool>local</codePool>
-        </Basics_HelperA>
+        </Basics_Helper>
     </modules>
 </config>
