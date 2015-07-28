@@ -12,11 +12,12 @@
             <basics_controllers>
                 <!-- Use the standard router. -->
                 <use>standard</use>
-                <!-- Magento expects all controllers to be in a subdirectory called 'controllers'. -->
-                <!-- Specifying only the namespace and module name is sufficient. -->
-                <module>Basics_Controllers</module>
-                <!-- This string will be used in the request URL and is hence case insensitive. -->
-                <frontName>basics</frontName>
+                <args>
+                    <!-- Namespaces_ModuleName -->
+                    <module>Basics_Controllers</module>
+                    <!-- This string will be used in the request URL. -->
+                    <frontName>basicsControllersFrontName</frontName>
+                </args>
             </basics_controllers>
         </routers>
     </frontend>
