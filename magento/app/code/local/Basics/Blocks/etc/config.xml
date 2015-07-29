@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Basics_Blocks>
+            <version>0.1.0</version>
+        </Basics_Blocks>
+    </modules>
+    <global>
+        <!-- Register your blocks -->
+        <blocks>
+            <!-- This node can be named anything as long as it is unique. -->
+            <!-- The convention is namespace_moduleName. -->
+            <basics_blocks>
+                <!-- This tells Magento where to find block classes in your module. -->
+                <!-- In this case under: Basics/Blocks/Block. -->
+                <class>Basics_Blocks_Block</class>
+            </basics_blocks>
+        </blocks>
+    </global>
+</config>
