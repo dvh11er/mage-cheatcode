@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Basics_ModelResources>
+            <version>0.1.0</version>
+        </Basics_ModelResources>
+    </modules>
+    <global>
+        <!-- Register models -->
+        <models>
+            <!-- This node can be named anything as long as it is unique. -->
+            <!-- The convention is to use namespace_moduleName. -->
+            <basics_modelResources>
+                <!-- This tells Magento where to find model classes in this module. -->
+                <!-- In this case under: Basics/ModelResources/Model. -->
+                <class>Basics_ModelResources_Model</class>
+
+                <resourceModel>basics_modelResources_resource</resourceModel>
+            </basics_modelResources>
+            <basics_modelResources_resource>
+                <class>Basics_ModelResources_Model_Resource</class>
+                <entities>
+                    <postageStamp>
+                        <table>basics_modelresources_postagestamp</table>
+                    </postageStamp>
+                </entities>
+            </basics_modelResources_resource>
+        </models>
+
+        <resources>
+            <basics_modelResources_setup>
+                <setup>
+                    <module>Basics_ModelResources</module>
+                    <class>Basics_ModelResources_Model_Resource_Setup</class>
+                </setup>
+            </basics_modelResources_setup>
+        </resources>
+    </global>
+</config>
